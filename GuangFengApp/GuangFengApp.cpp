@@ -1,11 +1,11 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "GuangFengApp.h"
 
-GuangFengApp::GuangFengApp(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::GuangFengAppClass())
+GuangFengApp::GuangFengApp(QWidget* parent) : QMainWindow(parent)
+                                            , ui(new Ui::GuangFengAppClass())
 {
     ui->setupUi(this);
+    
 }
 
 GuangFengApp::~GuangFengApp()

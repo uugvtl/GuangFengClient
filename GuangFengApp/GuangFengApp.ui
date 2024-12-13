@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ui version="4.0">
+<UI version="4.0">
  <class>GuangFengAppClass</class>
  <widget class="QMainWindow" name="GuangFengAppClass">
   <property name="geometry">
@@ -20,7 +19,7 @@
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>22</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>
@@ -39,4 +38,4 @@
   <include location="GuangFengApp.qrc"/>
  </resources>
  <connections/>
-</ui>
+</UI>

@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include <QtWidgets/QMainWindow>
 #include "ui_GuangFengApp.h"
@@ -13,7 +13,7 @@ class GuangFengApp : public QMainWindow
 
 public:
     GuangFengApp(QWidget *parent = nullptr);
-    ~GuangFengApp();
+    ~GuangFengApp() override;
 
 private:
     Ui::GuangFengAppClass *ui;
