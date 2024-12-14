@@ -128,17 +128,17 @@
     </QtMoc>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <QtRcc Include="GuangFengApp.qrc" />
-    <QtUic Include="GuangFengApp.ui" />
-    <QtMoc Include="GuangFengApp.h" />
-    <ClCompile Include="GuangFengApp.cpp" />
-    <ClCompile Include="main.cpp" />
-    <None Include="GuangFengApp.ico" />
-    <QtUic Include="QtWidgetsClass.ui" />
-    <ResourceCompile Include="GuangFengApp.rc" />
-    <QtMoc Include="QtWidgetsClass.h" />
+    <QtRcc Include="Resource\GuangFengApp.qrc" />
+    <QtUic Include="Form\GuangFengApp.ui" />
+    <QtMoc Include="Source\Leonzi\View\GuangFengApp.h" />
+    <ClCompile Include="Source\Leonzi\View\GuangFengApp.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <None Include="Resource\GuangFengApp.ico" />
+    <QtUic Include="Form\QtWidgetsClass.ui" />
+    <ResourceCompile Include="Resource\GuangFengApp.rc" />
+    <QtMoc Include="Source\Leonzi\View\QtWidgetsClass.h" />
     <ClInclude Include="stdafx.h" />
-    <ClCompile Include="QtWidgetsClass.cpp" />
+    <ClCompile Include="Source\Leonzi\View\QtWidgetsClass.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">Create</PrecompiledHeader>

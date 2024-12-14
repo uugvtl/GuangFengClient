@@ -23,22 +23,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="GuangFengApp.qrc">
+    <QtRcc Include="Resource\GuangFengApp.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtUic Include="GuangFengApp.ui">
+    <QtUic Include="Form\GuangFengApp.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="GuangFengApp.h">
+    <QtMoc Include="Source\Leonzi\View\GuangFengApp.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="GuangFengApp.cpp">
+    <ClCompile Include="Source\Leonzi\View\GuangFengApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <None Include="GuangFengApp.ico">
+    <None Include="Resource\GuangFengApp.ico">
       <Filter>Resource Files</Filter>
     </None>
-    <ResourceCompile Include="GuangFengApp.rc">
+    <ResourceCompile Include="Resource\GuangFengApp.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
     <ClInclude Include="stdafx.h">
@@ -49,20 +49,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="Source\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QtWidgetsClass.cpp">
+    <ClCompile Include="Source\Leonzi\View\QtWidgetsClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="QtWidgetsClass.h">
+    <QtMoc Include="Source\Leonzi\View\QtWidgetsClass.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <QtUic Include="QtWidgetsClass.ui">
+    <QtUic Include="Form\QtWidgetsClass.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
